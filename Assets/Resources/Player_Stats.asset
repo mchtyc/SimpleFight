@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b71a0b6e27298146be5efe87c42c7a4, type: 3}
+  m_Name: Player_Stats
+  m_EditorClassIdentifier: Assembly-CSharp::Player_Stats
+  charName: Player
+  turretCount: 1
+  maxTurretCount: 8
+  level: 3
+  XP: 27
+  maxXP: 800
+  coin: 0
+  power: 627
+  speed: 5
+  damage: 15
+  defense: 3
+  range: 10
+  critDamageMultiplier: 3
+  critDamageRate: 0.2
+  fireRate: 1
+  currentHP: 400
+  maxHP: 400
+  recoveryRepeatTime: 1
+  recoveryRate: 0.2
+  timePastBeforeRecovery: 3
+  bulletSpeed: 15
